@@ -1,0 +1,5 @@
+print('\033[4;34mCalculando promoção\033[m')
+print('=-=' * 20)
+valor = float(input('Digite o valor do produto: R$'))
+novo_valor = valor - (valor * (5 / 100))
+print(f'Valor inicial = R$ {valor}\nNovo valor após o desconto de 5% = R$ {novo_valor}')

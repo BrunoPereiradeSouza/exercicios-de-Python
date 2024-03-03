@@ -1,0 +1,10 @@
+from time import sleep
+nome = str(input('Digite o seu nome completo: ')).strip()
+novo_nome = ''.join(nome.split())
+first = nome.split()
+print('=-=' * 20)
+print('\033[4;34mAnalisando seu nome...\033[m\n')
+sleep(3)
+print(f'Nome em maiúsculas = {nome.upper()}\nNome em minúsculas = {nome.lower()}')
+print(f'Número de letras do nome ao todo = {len(novo_nome)}')
+print(f'Número de letras do primeiro nome = {len(first[0])}')
